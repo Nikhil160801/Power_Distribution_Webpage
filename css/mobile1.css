@@ -1,0 +1,53 @@
+/* header */
+.navbar{
+    flex-direction: column;
+}
+
+.navbar::before{
+    height: 120%;
+}
+
+.navbar ul{
+    flex-wrap: wrap;
+}
+/* main */
+
+#container::before{
+    height: 700px;
+}
+
+/* Service section */
+.serviceCard{
+    flex-direction: column;
+}
+
+/* Contact Section */
+
+/* .ContactBox form input,
+.ContactBox form textarea {
+    width: 120%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px gray;
+} */
+
+.ContactBox form {
+    width: 70%;
+}
+
+/* footer */
+
+/* Utility section styling */
+.h-primary {
+    font-size: 2.0rem;
+    margin-bottom: 5px;
+}
+
+.h-secondary {
+    font-size: 2.5rem;
+    padding-top: 80px;
+}
+.h-Csecondary {
+    font-size: 2.5rem;
+}
